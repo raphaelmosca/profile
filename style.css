@@ -1,0 +1,108 @@
+
+/* Custom design with class (99% of your design) */
+div {
+    display: block;
+}
+h1{
+  color :b7b7a4;
+  background-color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 999;
+  font-size: 32px;
+}
+p {
+  color: ddbea9;
+  font-weight:bold;
+
+}
+h2{
+  color : a5a58d;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px
+
+}
+
+a{
+  color :a5a58d;
+  size: 20000000px
+
+}
+a:hover {
+  color: black;
+}
+
+
+.title_2 {
+  font-family: 'Space Grotesk', sans-serif;
+color : black;
+font-family: large
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+.introduction_button {
+  border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #354C55;
+    color: black;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    transition: 1s;
+}
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
